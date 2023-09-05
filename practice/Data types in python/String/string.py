@@ -9,17 +9,17 @@ print(next(gen))  # Output: 2
 print(next(gen))  # Output: 3
 
 
-a = 'abdul'
-a.isalpha()
-a.isalnum()
-a.isascii()
+a = 'abdul123'
+print(a.isalpha())
+print(a.isalnum())
+print(a.isascii())
 
-a.isdecimal()
-a.isdigit()
-a.isnumeric()
+print(a.isdecimal())
+print(a.isdigit())
+print(a.isnumeric())
 
-a.islower()
-a.isupper()
+print(a.islower())
+print(a.isupper())
 
 b = ''
 b.split()
