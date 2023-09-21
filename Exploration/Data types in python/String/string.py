@@ -47,3 +47,7 @@ print(i.isdecimal())
 print(i.isnumeric())
 print(i.isdigit())
 #Refer this link for difference in these 3 methods in string - https://www.learnbyexample.org/python-string-isdecimal-method/#:~:text=As%20you%20can%20see%2C%20the,%2C%20Roman%20Numerals%2C%20Currency%20Numerators.
+
+latitude = ['9A', '35', '49', '0B']
+hex_string = ''.join(latitude)
+print(hex_string)

@@ -73,6 +73,15 @@ print(a)
 length = len(a)
 print(length)
 
+# half_length = length/2 - it will through type error as length/2 retutns float value
+half_length = length//2
+print(half_length)
+first_half = a[:half_length]
+second_half = a[half_length:]
+
+print(first_half)
+print(second_half)
+
 a.clear()
 print(a)
 

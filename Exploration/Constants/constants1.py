@@ -1,0 +1,3 @@
+VAR1 = 'ABDUL'
+var2 = 'MUBI'
+VAR3 = [47.7,49.7]
