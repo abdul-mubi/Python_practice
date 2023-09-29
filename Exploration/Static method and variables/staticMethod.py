@@ -1,3 +1,6 @@
+# What is a static method? Static methods in Python are extremely similar to python class level methods, 
+# the difference being that a static method is bound to a class rather than the objects for that class. 
+# This means that a static method can be called without an object for that class.
 class StaticClass():
     def __init__(self):
         print('Creating object for StaticClass and initializing self variables if any')
@@ -22,9 +25,11 @@ class StaticClass():
 StaticClass.static_method()
 print(StaticClass.static_var_a)
 print(StaticClass._protected_var)
-print(StaticClass.__private_var) #AttributeError: type object 'StaticClass' has no attribute '__private_var'
+# print(StaticClass.__private_var) #AttributeError: type object 'StaticClass' has no attribute '__private_var'
 
 obj1 = StaticClass()
 obj1.static_method()
 obj1.non_static_method()
 obj1.call_private_var()
+
+# What is class method in python 
