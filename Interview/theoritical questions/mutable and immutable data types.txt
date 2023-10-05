@@ -1,0 +1,26 @@
+In Python, data types can be categorized into two main categories based on their mutability: mutable and immutable.
+
+1. Mutable Data Types:
+
+Mutable data types can be modified or altered after creation.
+Changes to a mutable object are reflected in-place, meaning the object itself can be modified without creating a new object.
+
+Examples of mutable data types in Python:
+Lists
+Dictionaries
+Sets
+User-defined classes (objects)
+
+2. Immutable Data Types:
+
+Immutable data types cannot be modified once they are created.
+Any attempt to modify an immutable object results in creating a new object.
+Examples of immutable data types in Python:
+
+Integers
+Floats
+Strings
+Tuples
+Frozensets
+Numbers
+None
