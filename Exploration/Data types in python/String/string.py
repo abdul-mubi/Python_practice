@@ -51,3 +51,7 @@ print(i.isdigit())
 latitude = ['9A', '35', '49', '0B']
 hex_string = ''.join(latitude)
 print(hex_string)
+print('======================')
+z = 'abdul'
+print(z.capitalize())
+print(z.upper())
