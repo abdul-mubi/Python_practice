@@ -2,7 +2,7 @@ from baseclass import BaseClass
 
 class SubClass(BaseClass):
     def __init__(self, one,two,third):
-        BaseClass.__init__(self,one, two)
+        super().__init__(one, two)
         self.third = third
 
     def inside_sub(self):
