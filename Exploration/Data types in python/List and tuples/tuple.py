@@ -29,4 +29,11 @@ print(f'x = {x}, y = {y}')
 
 print('After swapping:')
 print(f'x = {x}, y = {y}')
+print('-------------------------------------------------------------')
+def get_values():
+    return 10, 20, 30
+
+values = get_values()
+print(type(values))
+print(values[0]) 
 
