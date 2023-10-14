@@ -53,11 +53,11 @@ reverse_value = a.reverse()
 print(reverse_value)
 print(a)
 
-# if you use the copy() method to create a copy of the list a and assign it to deep_copy_of_the_list, any changes made to deep_copy_of_the_list will not affect a
-deep_copy_of_the_list = a.copy()
-print(deep_copy_of_the_list)
-deep_copy_of_the_list.append('added')
-print(deep_copy_of_the_list)
+# if you use the copy() method to create a copy of the list a and assign it to shallow_copy_of_the_list, any changes made to shallow_copy_of_the_list will not affect a
+shallow_copy_of_the_list = a.copy()
+print(shallow_copy_of_the_list)
+shallow_copy_of_the_list.append('added')
+print(shallow_copy_of_the_list)
 print(a)
 
 # In Python, when you assign a list a to another variable b using the assignment operator (=), 
