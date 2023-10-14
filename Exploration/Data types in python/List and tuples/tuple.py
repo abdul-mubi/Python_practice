@@ -1,3 +1,8 @@
+# Tuple is a collection of data which is ordered and unchangeable
+# Used to group related data together
+# It is almost similar to list but List is ordered and changeable
+# It has only 2 methods which is "count" and "index". See examples below
+
 my_tuple = ((1,2,3),(4,5,6),(1,2,3))
 print(my_tuple[0][0])
 print(my_tuple[1])
