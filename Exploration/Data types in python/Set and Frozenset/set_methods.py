@@ -14,4 +14,5 @@ sample_set_2.remove('abdul')
 print(f'sample_set_2 - {sample_set_2}')
 sample_set.clear()
 print(f'sample_set - {sample_set}')
-
+list_out = list(sample_set_2)
+print(list_out)

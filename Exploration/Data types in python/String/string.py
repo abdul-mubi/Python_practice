@@ -1,3 +1,10 @@
+import string
+
+a = string.ascii_lowercase()
+b = string.ascii_uppercase()
+c = string.ascii_letters()
+print(a,b,c)
+
 def my_generator():
     yield 1
     yield 2
@@ -20,6 +27,10 @@ print(a.isnumeric())
 
 print(a.islower())
 print(a.isupper())
+
+c = 'abdul'
+print(c.upper())
+print(c.lower())
 
 b = ''
 b.split()
