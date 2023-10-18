@@ -17,6 +17,11 @@ c.update({7:8})
 print(c)
 print(b)
 
+d = b
+d.update({10:12})
+print(d)
+print(b)
+
 print('////////////////////////fromkeys///////////////////////////////')
 
 eg_key  = ['key1', 'key2']
