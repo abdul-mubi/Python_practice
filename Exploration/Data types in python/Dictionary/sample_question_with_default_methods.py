@@ -55,6 +55,8 @@ x = c.setdefault(9,20)
 print(c)
 print(x)
 
+out_list = sorted(c)
+print(out_list)
 
 print('//////////////////////////clear////////////////////////////////')
 b.clear()
