@@ -1,8 +1,8 @@
 import string
 
-a = string.ascii_lowercase()
-b = string.ascii_uppercase()
-c = string.ascii_letters()
+a = string.ascii_lowercase
+b = string.ascii_uppercase
+c = string.ascii_letters
 print(a,b,c)
 
 def my_generator():
